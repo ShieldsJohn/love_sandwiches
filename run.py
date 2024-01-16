@@ -73,7 +73,7 @@ def calculate_surplus_data(sales_row):
 def update_worksheet(data, worksheet):
     """
     Receives a list of integers to be inserted into a worksheet
-    Update the relevant worksheet with the data provided
+    Update the relevant worksheet with the data provided.
     """
     print(f"Updating {worksheet} worksheet...\n")
     worksheet_to_update = SHEET.worksheet(worksheet)
